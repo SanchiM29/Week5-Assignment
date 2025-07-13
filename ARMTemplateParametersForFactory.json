@@ -1,0 +1,33 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "factoryName": {
+            "value": "week5-adf"
+        },
+        "ftpLinkedService_password": {
+            "value": ""
+        },
+        "AzureSqlDatabase1_password": {
+            "value": ""
+        },
+        "BlobStorageLinkedService_connectionString": {
+            "value": ""
+        },
+        "ftpLinkedService_properties_typeProperties_host": {
+            "value": "ftp.dlptest.com"
+        },
+        "ftpLinkedService_properties_typeProperties_userName": {
+            "value": "dlpuser"
+        },
+        "AzureSqlDatabase1_properties_typeProperties_server": {
+            "value": "sanchinew29.database.windows.net"
+        },
+        "AzureSqlDatabase1_properties_typeProperties_database": {
+            "value": "SANCHI29DB"
+        },
+        "AzureSqlDatabase1_properties_typeProperties_userName": {
+            "value": "sqladmin"
+        }
+    }
+}
